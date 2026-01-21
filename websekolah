@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Sekolah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    .hero {
+      background: url("https://images.unsplash.com/photo-1588072432836-e10032774350") center/cover no-repeat;
+      height: 400px;
+      position: relative;
+      color: white;
+    }
+    .hero-overlay {
+      background: rgba(0,0,0,0.6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .section {
+      padding: 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="blue darken-2">
+  <div class="nav-wrapper container">
+    <a href="#" class="brand-logo">SMA Inodonesia </a>
+    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+      <i class="material-icons">menu</i>
+    </a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#sambutan">Sambutan</a></li>
+      <li><a href="#informasi">Informasi</a></li>
+      <li><a href="#pengumuman">Pengumuman</a></li>
+      <li><a href="#artikel">Artikel</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-nav">
+  <li><a href="#sambutan">Sambutan</a></li>
+  <li><a href="#informasi">Informasi</a></li>
+  <li><a href="#pengumuman">Pengumuman</a></li>
+  <li><a href="#artikel">Artikel</a></li>
+  <li><a href="#kontak">Kontak</a></li>
+</ul>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-overlay">
+    <div class="container center">
+      <h3>SMA Indonesia</h3>
+      <p>Mencetak Generasi Berprestasi & Berkarakter</p>
+    </div>
+  </div>
+</div>
+
+<!-- Sambutan -->
+<div id="sambutan" class="section container">
+  <h4 class="center">Kata Sambutan Kepala Sekolah</h4>
+  <div class="row">
+    <div class="col s12 m4 center">
+      <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e"
+           class="circle responsive-img" alt="Kepala Sekolah">
+      <p><strong>Drs. Germany Wheeler</strong></p>
+    </div>
+    <div class="col s12 m8">
+      <p>
+        Selamat datang di website resmi SMA Indonesia.
+        Website ini menjadi sarana informasi dan komunikasi antara sekolah,
+        peserta didik, orang tua, dan masyarakat.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Informasi -->
+<div id="informasi" class="section grey lighten-4">
+  <div class="container">
+    <h4 class="center">Informasi Sekolah</h4>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Profil Sekolah</span>
+            <p>Sekolah unggulan dengan fasilitas lengkap.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Visi & Misi</span>
+            <p>Mencetak siswa berprestasi dan berakhlak mulia.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Fasilitas</span>
+            <p>Laboratorium, perpustakaan, dan lapangan olahraga.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pengumuman -->
+<div id="pengumuman" class="section container">
+  <h4 class="center">Pengumuman</h4>
+  <ul class="collection">
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">announcement</i>
+      PPDB Tahun Ajaran Baru Telah Dibuka
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle orange">event</i>
+      Ujian Semester Dimulai 10 Juni
+    </li>
+  </ul>
+</div>
+
+<!-- Artikel -->
+<div id="artikel" class="section grey lighten-4">
+  <div class="container">
+    <h4 class="center">Artikel Terbaru</h4>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+            <span class="card-title">Kegiatan Literasi</span>
+          </div>
+          <div class="card-content">
+            <p>Siswa rutin membaca sebelum pelajaran dimulai.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+            <span class="card-title">Prestasi Siswa</span>
+          </div>
+          <div class="card-content">
+            <p>Juara olimpiade sains tingkat provinsi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Kontak & Maps -->
+<div id="kontak" class="section container">
+  <h4 class="center">Kontak Kami</h4>
+  <div class="row">
+    <div class="col s12 m6">
+      <p><i class="material-icons">location_on</i> Jl. Pendidikan No. 1</p>
+      <p><i class="material-icons">phone</i> (021) 123456</p>
+      <p><i class="material-icons">email</i> info@smaindonesia.sch.id</p>
+    </div>
+    <div class="col s12 m6">
+      <iframe src="https://www.google.com/maps?q=jakarta&output=embed"
+        width="100%" height="250" style="border:0;" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<footer class="blue darken-2 white-text center">
+  <p>© 2026 SMA Indonesia</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    M.Sidenav.init(document.querySelectorAll('.sidenav'));
+  });
+</script>
+
+</body>
+</html>
